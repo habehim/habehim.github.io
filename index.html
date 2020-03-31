@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" style="background-color:AliceBlue">
 </head>
-
-<!-- Load an icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-    <a href="https://www.linkedin.com/in/him-li-528648122/"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-</div>
+<style>
+header {
+  background-color: rgb(AliceBlue);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}    
+nav {
+    float: left;
+    width: 10%;
+    height: 3000px; /* only for demonstration, should be removed */
+    background: rgb(red, green, blue);
+    padding: 20px;
+  }
+</style>
 
 <body>
     <a href="https://www.facebook.com/himlilili">
-        <h1>Cheuk Him Li</h1>
+        <header>Cheuk Him Li</header>
+        <section>
+            <nav>
+              <ul>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Me</a></li>
+                <li><a href="#"><a href="https://www.linkedin.com/in/him-li-528648122/"><i class="fa fa-fw fa-envelope"></i> Contact</a></a></li>
+              </ul>
+            </nav>
     </a>
+    <article>
     <ul style="list-style-type: none;">
         <li>place I've been</li>
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cUmKxX4xm0Hpw2BphiJe5s5Dm_BhgbO5" width="400"
             height="400"></iframe>
+        </article>
 
         <li>Music that I like</li>
         <iframe width="400" height="400" src="https://www.youtube.com/embed/DviID8Ni7Ns" frameborder="400"
